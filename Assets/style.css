@@ -1,0 +1,111 @@
+body {
+    background-image: url("assets/images/blue-snow.png");
+    height: 100%;
+    width: 100%;
+    
+}
+
+.view {
+    background-image: url("assets/images/blue-snow.png");
+    height: 100%;
+    width: 100%;
+  }
+
+#pimage {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imagepos {
+    position: relative;
+
+}
+
+.linktext {
+    position: absolute;
+    bottom: 10%;
+    border: solid green;
+    background-color: white;
+    color: black;
+    width: 200px;
+    text-align: center;    
+}
+
+.relativeimage {
+    display: flex;
+    justify-content: center;
+}
+
+.vhadjust {
+    height: 100vh;
+    margin-top: 2%;
+}
+
+.adjustfooter {
+position:fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+background-color: darkblue;
+color: white;
+text-align: center;
+
+}
+
+.bkgrdcolor {
+
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,15,121,0.6227533249627977) 28%, rgba(0,212,255,1) 100%);
+
+}
+
+
+#portboard {
+
+color: lightyellow;
+
+}
+
+
+hr {
+    background-color: lightgoldenrodyellow;
+    
+
+}
+
+#hrmarginadjust {
+
+    margin-right: 2vh;
+    margin-left: 2vh;
+
+}
+
+
+/* NAVBAR BACKGROUND RECOLOR */
+
+/* .bg-light {
+
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,15,121,0.6227533249627977) 28%, rgba(0,212,255,1) 100%);
+
+
+} */
+
+
+.bg-custom{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(223,70,0,1) 58%, rgba(236,240,52,0.6171510840664391) 100%);
+}
+
+/* 
+
+#smalltextadjust {
+
+@media
+
+    padding-right: 5px;
+    padding-left: 5px;
+
+} */
